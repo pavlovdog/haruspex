@@ -17,33 +17,33 @@ mongorestore --db users dump/users
 ```
 
 ### Algorithmes:
-	- SVM
-	- Decision trees
-	- Naive Bayes
-	- Logistic regression
-	- K-nearest neighbours
+- SVM
+- Decision trees
+- Naive Bayes
+- Logistic regression
+- K-nearest neighbours
 
 ### Labels
-	- Age (+)
-	- Sex (+)
-	- Interests
-	- Attitude to alcohol
-	- Attitude to smoking
-	- Current relationships
+- Age (+)
+- Sex (+)
+- Interests
+- Attitude to alcohol
+- Attitude to smoking
+- Current relationships
 
 ### Features
-	- Number of followers (+)
-	- Number of followings (+)
-	- Number of media (+)
-	- Average number of likes (+)
-	- Average number of comments (+)
-	- Average number of medias per week (+)
-	- Average number of mentions
-	- Average number of tags
-	- List of tags
-	- List of followings
-	- Average number of smileys in caption (+)
-	- Average caption's length (+)
-	- Correlation between videos & photos (+)
-	- Frequency of new medias (+)
-	- List of filteres
+- Number of followers (+)
+- Number of followings (+)
+- Number of media (+)
+- Average number of likes (+)
+- Average number of comments (+)
+- Average number of medias per week (+)
+- Average number of mentions
+- Average number of tags
+- List of tags
+- List of followings
+- Average number of smileys in caption (+)
+- Average caption's length (+)
+- Correlation between videos & photos (+)
+- Frequency of new medias (+)
+- List of filteres
