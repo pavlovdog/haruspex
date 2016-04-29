@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pandas
+sklearn
+scipy
+pymongo
+bs4
