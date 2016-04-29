@@ -10,14 +10,10 @@ Describing user by his Instagram page using machine learning
 - dump/users (1351 users, will be much more soon)
 
 ### Installation
-'''
-
-git clone https://github.com/pavlovdog/haruspex.git
-
-cd haruspex
-
-mongorestore --db users dump/users
-
+''' bash
+	git clone https://github.com/pavlovdog/haruspex.git
+	cd haruspex
+	mongorestore --db users dump/users
 '''
 
 ### Algorithmes:
