@@ -13,6 +13,7 @@ Describing user by his Instagram page using machine learning
 ```bash
 git clone https://github.com/pavlovdog/haruspex.git
 cd haruspex
+pip install -r requirements.txt
 mongorestore --db users dump/users
 ```
 
