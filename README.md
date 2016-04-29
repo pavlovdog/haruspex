@@ -11,9 +11,13 @@ Describing user by his Instagram page using machine learning
 
 ### Installation
 '''
+
 git clone https://github.com/pavlovdog/haruspex.git
+
 cd haruspex
+
 mongorestore --db users dump/users
+
 '''
 
 ### Algorithmes:
