@@ -1,5 +1,5 @@
 ==================================================================
-== Describing user by his Instagram page using machine learning ==
+Describing user by his Instagram page using machine learning
 ==================================================================
 
 ### Description of repo
