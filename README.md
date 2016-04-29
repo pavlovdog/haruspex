@@ -47,7 +47,3 @@ mongorestore --db users dump/users
 - Correlation between videos & photos (+)
 - Frequency of new medias (+)
 - List of filteres
-
-### Best results
-#### Age prediction
-#### Sex prediction
