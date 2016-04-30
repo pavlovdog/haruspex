@@ -1,4 +1,5 @@
 import matplotlib.pyplot as plt
+import numpy as np
 
 def plot_confusion_matrix(fig, cm, classes, size, cmap=plt.cm.autumn):
     ax = fig.add_subplot(size)
@@ -49,3 +50,14 @@ def plot_classification_report(fig, cr, classes, size, with_avg_total=True, cmap
     for y in range(len(classes) + 1):
         for x in range(len(data_matrix[0])):
             ax.text(x, y, data_matrix[y][x], fontsize = 20, va='center', ha='center')
+
+            
+def plot_distribution(dataset, fig, size, names, title):
+    ax = fig.add_subplot(size)
+    bar_width = 0.35
+    index = np.arange(len(names))
+    ax.hist(dataset)
+    ax.set_xticks(index)
+    ax.set_xticklabels(names, rotation = 45, fontsize = 15)
+    ax.set_title(title, fontsize = 25)
+

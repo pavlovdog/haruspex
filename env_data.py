@@ -181,13 +181,13 @@ def list_ages_classes():
     response = np.array([])
     
     for age in ages:
-        if age < 15:
+        if age <= 17:
             response = np.append(response, 0)
-        elif 15 <= age < 25:
+        elif 17 < age <= 19:
             response = np.append(response, 1)
-        elif 25 <= age < 35:
+        elif 19 < age <= 21:
             response = np.append(response, 2)
-        elif 35 <= age < 45:
+        elif 21 < age <= 23:
             response = np.append(response, 3)
         else:
             response = np.append(response, 4)
