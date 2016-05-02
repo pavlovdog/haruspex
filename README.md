@@ -48,3 +48,12 @@ mongorestore --db users dump/users
 - Correlation between videos & photos (+)
 - Frequency of new medias (+)
 - List of filteres
+
+## Helpful articles
+http://kukuruku.co/hub/python/introduction-to-machine-learning-with-python-andscikit-learn
+
+http://bigdataexaminer.com/uncategorized/how-to-run-linear-regression-in-python-scikit-learn/
+
+http://blog.gramant.ru/2012/06/06/f1-measure/
+
+https://www.creighton.edu/fileadmin/user/HSL/docs/ref/Searching_-_Recall_Precision.pdf
